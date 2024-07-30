@@ -31,7 +31,7 @@ mongoose.connect('mongodb+srv://expertcodecraft:RV6y6B5TDHMAhNGw@litigator.a7xcz
     res.json({msg:"Running"});
 })
 
-app.listen(8000);
+app.listen(3000);
 
 app.use('/api/user', userRoutes);
 // app.use('/api/vender', venderRoutes);
